@@ -1,0 +1,167 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ten class</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("#cssbtn").click(function(){
+$("body").css("background","#43454B");
+});
+});
+</script>
+</head>
+<style>
+body{
+	background:#3A5195;
+}
+h1{
+	color:#B19C5E;
+	background:#556289;
+	text-align:center;
+}
+p#para1{
+	background:#63748B;
+	color:#E3CF94;
+	font-size:x-large;
+	text-align:center;
+}
+p#para2{
+	font-size:xx-large;
+	font-family:monospace;
+	background:#3ACECC;
+	color:#758D3B;
+}
+center{
+	background:#388382;
+}
+#spn1{
+	color:red;
+	margin:553px;
+}
+div{
+	
+	background:#A5C41C; 
+	width: 90px;
+	overflow: hidden;
+	float:left;
+	margin:0px; 
+	padding:0px;
+	list-style:none;
+}
+div ul{
+	float:left;
+	margin:0px; 
+	padding:0px;
+	list-style:none;
+}
+div ul li{
+	font-family:courier;
+	float: left; 
+	margin:0px 10px;
+}
+div ul li a{
+	text-decoration: none; 
+	color:#43A2AA; 
+	font-size:20px; 
+	padding: 10px 10px; 
+	display: block;
+}
+div ul li a:hover:not(.active){
+	border-radius:50px;
+	background:white;
+}
+.spn{
+	color:red;
+}
+ul li ul{
+	display: none;
+}
+li:hover ul{
+	position: absolute;
+	display: block;	
+}
+li ul li{
+	float: none;
+	display: inherit;
+}
+li ul li a:hover:not(.active){
+	background: white;
+
+}
+button#btn1,a{
+	text-decoration:none;
+    	float: right;
+	padding:5px 5px; 
+	font-family:courier;
+	background:#A5C41C; 
+	font-size:20px; 
+	color:#758D3B;
+}
+#cssbtn{
+	padding:0px; 
+	margin:0px;
+}
+</style>
+<body>
+
+			<button id="cssbtn">Night Mode</button><br><br>	
+
+
+
+	<button id="btn1"><a href="file:///C:/Users/TOP%20TECH/Desktop/Abdullah%20document/new1.html"><span class="spn">L</span>og<span class="spn">o</span>u<span class="spn">t</span></a></button>
+	<div>
+		<ul>
+			<li><a href="#"><span class="spn"><b>M</b></span>e<span class="spn"><b>n</b></span>u</a>		
+				<br><br><ul>
+					<li><a href="main.html"><span class="spn"><b>H</b></span>o<span class="spn"><b>m</b></span>e</a></li>
+					<li><a href="main2.html"><span class="spn"><b>M</b></span>a<span class="spn"><b>i</b></span>n</a></li>
+					<li><a href="about.html"><span class="spn"><b>A</b></span>bo<span class="spn"><b>u</b></span>t</a></li>
+					<li><a href="study.html"><span class="spn"><b>S</b></span>tu<span class="spn"><b>d</b></span>y</a></li>
+					<li><a href="intrest.html"><span class="spn"><b>I</b></span>Intr<span class="spn"><b>e</b></span>st</a></li>
+				</ul>
+		
+			</li>
+		</ul>
+	</div><br><br>
+
+	<h1>Ten project</h1>
+	<p id="para1">Is is my ten class project. I have completed 19 minutes</p>
+
+	<center><h2>Use of The class Attribute in JavaScript</h2>
+	<p>Click the button to hide all elements with class name "city":</p>
+	
+	<button onclick="myFunction()">Hide elements</button>
+	<button onclick="myFunction2()">Show elements</button>
+
+	<h2 class="city">London</h2>
+	<p>London is the capital of England.</p>
+
+	<h2 class="city">Paris</h2>
+	<p>Paris is the capital of France.</p>
+	
+	<h2 class="city">Tokyo</h2>
+	<p>Tokyo is the capital of Japan.</p>
+
+<script>
+function myFunction() {
+  var x = document.getElementsByClassName("city");
+  for (var i = 0; i < x.length; i++) {
+    x[i].style.visibility  = "hidden";
+  }
+}
+function myFunction2() {
+  var x = document.getElementsByClassName("city");
+  for (var i = 0; i < x.length; i++) {
+    x[i].style.visibility = "visible";
+  }
+}
+
+</script></center>
+	
+	<p id="para2">!These are my Aptech class project It's not my all project this are only some project i show you many task i didn't show because i can't made all project in 3 days so i made these project,<br><span id="spn1">"Thank you for visit"</span> </p>
+	
+		
+
+</body>
+</html>

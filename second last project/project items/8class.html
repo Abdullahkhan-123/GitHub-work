@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>	
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eight class</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("#cssbtn").click(function(){
+$("body").css("background","#43454B");
+});
+});
+</script>
+</head>
+<style>
+body{
+	background:#99A3A4;s
+}
+h1{
+	color:#f9f9fb;
+	background:#616A6B;
+	text-align:center;
+}
+p#para1{
+	color:#34495E;
+	background:#D7DBDD;
+	font-size:large;
+	text-align:center;
+}
+center{
+	background:#ABEBC6;
+}
+button#btn{
+	background:#239B56;
+	color:#f9f9fb;
+	padding:10px;
+	margin:50px 435px;
+}
+a{
+	text-decoration:none;
+	color:#f9f9fb;
+}
+#cssbtn{
+	padding:0px; 
+	margin:0px;
+}
+</style>
+<body>
+
+	<button id="cssbtn">Night Mode</button>
+
+	<h1>Eight class project</h1>
+	<p id="para1">It is my eight project. I had done 20 minutes</p>
+
+
+
+
+	<center><h2>Use of The class Attribute in JavaScript</h2>
+	<p>Click the button to hide all elements with class name "city":</p>
+
+	<button onclick="myFunction()">Hide elements</button>
+	<button onclick="myFunctionShow()">Show Elements </button>
+	<h2 class="city">London</h2>
+	<p>London is the capital of England.</p>
+
+	<h2 class="city">Paris</h2>
+	<p>Paris is the capital of France.</p>
+
+	<h2 class="city">Tokyo</h2>
+	<p>Tokyo is the capital of Japan.</p>
+
+<script>
+function myFunction() {
+  var x = document.getElementsByClassName("city");
+  for (var i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+}
+
+
+function myFunctionShow() {
+  var x = document.getElementsByClassName("city");
+  for (var i = 0; i < x.length; i++) {
+    x[i].style.display = "block";
+  }
+}
+
+</script></center>
+	
+			<button id="btn"><a href="9class.html">Go to next class</a></button>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My web</title>
+<link rel="stylesheet" href="style1.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("#btn1").click(function(){
+$("#div1").animate({left:'200px'});
+$("#div2").hide({left:'200px'});
+});
+$("#cssbtn").click(function(){
+$("body").css("background","#43454B");
+});
+});
+</script>
+</head>
+<body bgcolor="#689CE1" img src=”https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/UNO_Logo.svg/1280px-UNO_Logo.svg.png” width=”225” height=”500”>
+			<button id="cssbtn">Night Mode</button><br><br>
+	<div>
+		<ul>
+			<li><a href="main2.html"><span><b>M</b></span>a<span><b>i</b></span>n</a></li>
+			<li><a href="about.html"><span><b>A</b></span>bo<span><b>u</b></span>t</a></li>
+			<li><a href="study.html"><span><b>S</b></span>tu<span><b>d</b></span>y</a></li>
+			<li><a href="intrest.html"><span><b>I</b></span>Intr<span><b>e</b></span>st</a></li>
+		</ul>
+	</div>
+	<img src="picture2.jpg" id="img">
+<footer>
+	
+	
+	<p>Click button to start animation left div move to right and right div hide.</p>
+
+		<button id="btn1">Start Animation right to left</button><br><br>
+
+	
+	<div id="div1" style="background:#7AA9A3; height:90px; width:100px; position:absolute;"></div>
+	<div id="div2" style="background:#4AA297; height:90px; width:100px; position:absolute; margin:0px 200px; display:block;"></div>
+	
+
+</footer>
+
+</body>
+</html>

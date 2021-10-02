@@ -1,0 +1,70 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Second class</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("#cssbtn").click(function(){
+$("body").css("background","#43454B");
+});
+});
+
+</script>
+
+</head>
+<style>
+body{
+	background:#6FA1A8;
+}
+h1{
+	background:#4AB2C0;
+	color:white;
+	text-align:center;
+}
+p{
+	color:white;
+	text-align:center;
+}
+canvas#myCanvas {
+    background: white;
+}
+button{
+	background:#49C3D3;
+	border-radius:20px;
+	padding:10px 30px;
+	margin:50px 393px;
+}
+a{
+	color:white;
+	font-size:large;	
+	text-decoration:none;	
+	background:#49C3D3;
+}
+#cssbtn{
+	padding:0px;
+	margin:0px;
+	background:white;
+}
+</style>
+<body>
+
+	<button id="cssbtn">Night Mode</button>
+
+	<h1>Second class project</h1>
+	<p>This is my second class project. this project i have completed in minbutes 10</p>
+	
+	<center><canvas id="myCanvas" width="500" height="350" style="border:2px solid red;"></canvas>
+
+	<script>
+		var canvas=document.getElementById("myCanvas");
+		var ctx=canvas.getContext("2d");
+		ctx.shadowBlur=20;
+		ctx.fillStyle="red";
+	
+		ctx.shadowColor="black";
+		ctx.fillRect(20,20,100,80);
+	</script></center>
+			<button><a href="3class.html#">Go to next class</a></button>
+</body>
+</html>

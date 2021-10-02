@@ -1,0 +1,90 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bismillah</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("#btn").click(function(){
+$("#show").toggle("slow");
+});
+	$("#clk2").click(function(){
+	$("#hide").slideDown("slow");
+});
+	$("#cssbtn").click(function(){
+	$("body").css("background","#43454B");
+});
+});
+</script>
+</head>
+<style>
+body{
+	background-image:url('picture4.jpg');
+}
+#btn,#show,#clk2,#hide{
+	padding:20px;
+	background:#30AA8A;
+	text-align:center;
+
+}
+#show{
+	display:none;
+	padding:80px;
+	background:none;
+}
+#clk2{
+	padding:20px;
+	background:#69A495;
+}
+#hide{
+	display:none;
+	padding:100px;
+	background:#38BC99;
+}
+.btn,a{
+	text-decoration:none;
+	padding:10px;
+	background:#319B75;
+	color:white;
+	font-size:x-large;
+	font-family:fantasy;
+
+}
+#in{
+	background:#2792A7;
+	margin:0px -80px;
+}
+#h1{
+	background:#66A2AD;
+	padding:10px;
+	font-family:Cursive;
+	font-size:large;
+}
+p{
+	font-size:x-large;
+	font-family:Cursive;
+	background:#58ABBC;
+}
+#cssbtn{
+	padding:0px; 
+	margin:0px;
+}
+</style>
+<body>
+					<button id="cssbtn">Night Mode</button><br><br>
+
+	<div id="btn"><h1>This page is about my study.<br>You have to Click this slide to show something<h1></div>
+	<div id="show"><h1 id="in">In the name of Allah</h1>
+		<h5 id="h1">This about my class study if you want to watch my classes to click the next slide button.<br>but if not interested my classes then click again the top slide to close this slide</h5>
+			<img src="download1.jpg"><br><br>
+	
+			<p>If you want to watch my next page so then click the second slide that slide has button they will be teken the new page </p>
+	</div>
+	<div id="clk2"><h1>Click here to use button<h1></div>
+	<div id="hide">
+		
+		<button class="btn"><a href="1class.html">Click to go</a></button>
+		<button class="btn"><a href="study.html">Click to back</a></button>
+	</div>
+</body>
+</html>

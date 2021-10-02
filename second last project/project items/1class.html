@@ -1,0 +1,397 @@
+<html>
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My first form</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("#cssbtn").click(function(){
+$("body").css("background","#43454B");
+});
+});
+
+</script>
+</head>
+	
+<style>
+body{
+	background:#649CD5;
+}
+form{
+	
+	background:#DCDFE1;
+	padding:20px 41px;
+	border:1px solid;
+	width:440px
+}
+h1{
+	text-align:center;
+	background:#59BAAF;
+	color:white;
+}
+#para15{
+	color:white;
+	text-align:center;
+	font-size:x-large;
+}
+button{	
+	background:#1B7B70;
+	margin:10px 185px;
+	padding:10px 10px;
+}
+a{	
+	font-size:large;
+	text-decoration:none;
+	color:white;	
+}
+h2{
+	text-align:center;
+}
+p[id="para"]{
+
+	color:#86898B;
+	text-align:center;
+}
+input[type="text"]{
+
+	width:100px;
+}
+input[type="text"]{
+	
+	width:125px;
+}
+label[id="name"]{
+
+	color:#86898B;
+	font-size:small;
+	padding:5px;
+	
+}
+label[id="middle"]{
+	
+	color:#86898B;	
+	font-size:small;	
+	padding:60px;
+	
+}
+label[id="last"]{
+
+	color:#86898B;
+	font-size:small;	
+	padding:0px;
+	
+}
+label[id="month"]{
+	
+	color:#86898B;
+	font-size:small;
+	padding:5px;
+	
+}
+label[id="day"]{
+	
+	color:#86898B;
+	font-size:small;	
+	padding:18px;
+	
+}
+label[id="year"]{
+
+	color:#86898B;
+	font-size:small;	
+	padding:1px;
+	
+}
+label[id="city"]{
+	
+	color:#86898B;
+	font-size:small;
+	padding:5px;
+}
+label[id="state"]{
+
+	color:#86898B;
+	font-size:small;		
+	padding:60px;
+}
+label[id="street"]{
+
+	color:#86898B;
+	font-size:small;
+}
+label[id="streetaddress"]{
+
+	color:#86898B;
+	font-size:small;
+}
+label[id="code"]{
+	
+	color:#86898B;
+	font-size:small;
+}
+label[id="example"]{
+
+	color:#86898B;
+	font-size:small;
+}
+select[id="month"]{
+	
+	width:60px;
+	
+}
+select[id="gender"]{
+		
+	width:180px;
+}	
+select[id="date"]{
+	width:60px;
+}
+select[id="course"]{
+	
+	width:180px;
+}
+input[type="button"]{
+
+	background:#38B92C;
+	color:white;
+	padding: 5px 10px;
+	margin: 15px 145px;
+}
+#cssbtn{
+	padding:0px;
+	margin:0px;
+	background:white;
+}
+</style>
+	
+<body style="margin:0px 240px auto;">
+
+		<button id="cssbtn">Night Mode</button>
+
+				<h1>My first project HTML in class</h1>
+				<p id="para15">This is my class one project i have completed in 60minutes</p>
+							<button><a href="2class.html#">Go to next class</a></button>
+							
+			
+
+	
+	<form>
+		<div id="heading">
+		<h2>Student Registration form</h2>
+		<p id="para">Fill out the form carefully for registration</p>
+				
+				<hr>
+		</div>
+
+	<div id="form">
+		<p>Student Name</p>
+	</div>
+			
+		<input type="text">
+
+	
+
+				<!--This one-->
+					<input type="text">
+				<!--This one-->
+
+
+		<input type="text">	
+				
+			
+	<div>		
+			
+		<label id="name">
+			First Name
+		</label>
+
+		<label id="middle">
+			Middle Name
+		</label>
+
+		<label id="last">
+			Last Name
+		</label>
+	</div>		
+
+
+		<p>Birth</p>
+	<select id="month">
+
+		<option></option>
+		<option>January</option>
+		<option>February</option>
+		<option>March</option>
+		<option>April</option>
+		<option>May</option>
+		<option>June</option>
+		<option>July</option>
+		<option>August</option>
+		<option>September</option>
+		<option>October</option>
+		<option>November</option>
+		<option>December</option>
+	</select>
+		
+	<select id="date">
+
+		<option></option>
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+		<option>5</option>
+		<option>6</option>
+		<option>7</option>
+		<option>8</option>
+		<option>9</option>
+		<option>10</option>
+		<option>11</option>
+		<option>12</option>
+		<option>13</option>	
+		<option>14</option>
+		<option>15</option>
+		<option>16</option>
+		<option>17</option>
+		<option>18</option>
+		<option>19</option>
+		<option>20</option>
+		<option>21</option>
+		<option>22</option>
+		<option>23</option>
+		<option>24</option>
+		<option>25</option>
+		<option>26</option>
+		<option>27</option>
+		<option>28</option>
+		<option>29</option>
+		<option>30</option>
+	</select>
+	
+	<select>
+			
+		<option></option>
+		<option>1990</option>
+		<option>1991</option>
+		<option>1992</option>
+		<option>1993</option>
+		<option>1994</option>
+		<option>1995</option>
+		<option>1996</option>
+		<option>1997</option>
+		<option>1998</option>
+		<option>1999</option>
+		<option>2000</option>
+		<option>2001</option>
+	</select>
+		
+	<div>
+		
+		<label id="month">
+			Month
+		</label>
+		
+		<label id="day">  
+			Day
+		</label>
+
+		<label id="year">
+			Year
+		</label>
+	</div>
+
+	<div>
+		<p>Gender</p>	
+	<select id="gender">
+		
+		<option></option>
+		<option>Male</option>
+		<option>Female</option>
+	</select>
+
+	</div>
+	
+		<p>Address</p>
+
+	<div>
+
+	
+			<input type="text" style="width:180px;">
+	</div>
+		<label id="street">
+			Street address
+		</label>
+	
+	
+	<div>
+
+	
+			<input type="text" style="width:180px;">
+	</div>
+		
+		<label id="streetaddress">
+			Street address Line 2
+		</label>
+	
+	<div> 
+		<input type="text" style="width:88px;">
+
+	
+	    				<!--This one-->
+							<input type="text" style="width:88px;">
+	 		   		<!--This one-->
+
+
+	</div>
+		
+		<label id="city">
+			City
+		</label>
+		
+		
+		<label id="state">
+			State/Province
+		</label>
+
+	<div>
+		<input type="password" style="width:180;">
+	</div>
+		<label id="code">
+			Postal/Zip Code
+		</label>
+
+	<div>
+		<h5>Student E-mail</h5>
+		
+			<input type="text" placeholder="ex:myname@example.com" style="width:180;">
+
+	<div>
+		
+		
+		<label id="example">
+			example@example.com
+		</label>	
+	<div>
+		<h5>Course</h5>
+		
+	<select id="course">
+		<option></option>
+		<option>Computer Course</option>
+		<option>Biology</option>
+		<option>Theology</option>
+		<option>philosophy</option>
+		<option>Management</option>	
+	</select>
+	</div>
+		
+	<div>
+		<h5>Additinol Comments</h5>
+		<input type="text" style="width:180; height:100px;">
+	</div>
+						<input type="button" value="Submit Application">
+	</form>
+	
+		
+
+</body>
+</html>

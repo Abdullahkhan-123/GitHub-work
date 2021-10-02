@@ -1,0 +1,172 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Third class</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("#cssbtn").click(function(){
+$("body").css("background","#43454B");
+});
+});
+
+</script>
+
+</head>
+<style>
+body{
+	background:#759578;
+}
+#cssbtn{
+	paddibg:0px;
+	margin:0px;
+}
+h1{
+	background:#BBB76A;
+	color:#3DF5EC;
+	text-align:center;
+}
+p{
+	color:#8E44AD;
+	font-size:x-large;
+	text-align:center;
+}
+canvas#mycanvas{
+	background:white;
+}
+button{	
+	background:#7F8C8D;
+	font-size:large;
+	padding:10px;
+	margin:60px 400px;
+}
+a{
+	color:white;
+	text-decoration:none;
+}
+#cssbtn{
+	padding:0px;
+	margin:0px;
+	background:white;
+}
+</style>
+<body>
+
+	<button id="cssbtn">Night Mode</button>
+
+
+	<h1>Third class project</h1>
+	<p>This is my third class project. I had completed in minute 90</p>
+
+	<center><canvas id="myCanvas" width="800" height="500" style="border:5px solid #4EA6A6;"></canvas>
+
+	<script>
+		var c=document.getElementById("myCanvas");
+		var ctx=c.getContext("2d");
+		ctx.beginPath();
+		ctx.arc(250,400,60,0,2*Math.PI);
+		ctx.stroke();
+		
+		ctx.beginPath();
+		ctx.arc(540,400,60,0,2*Math.PI);
+		ctx.stroke();
+		
+		ctx.beginPath();
+		ctx.arc(250,400,10,0,2*Math.PI);
+		ctx.stroke();
+		
+		ctx.beginPath();
+		ctx.arc(540,400,10,0,2*Math.PI);
+		ctx.stroke();
+		
+	
+		ctx.moveTo(250,340);
+		ctx.lineTo(250,390);
+		ctx.stroke();		
+		
+		ctx.moveTo(250,460);
+		ctx.lineTo(250,410);
+		ctx.stroke();
+	
+		ctx.moveTo(240,400);
+		ctx.lineTo(190,400);
+		ctx.stroke();
+
+		ctx.moveTo(260,400);
+		ctx.lineTo(310,400);
+		ctx.stroke();
+		
+		ctx.moveTo(530,400);
+		ctx.lineTo(480,400);
+		ctx.stroke();
+		
+		ctx.moveTo(550,400);
+		ctx.lineTo(600,400);
+		ctx.stroke();
+	
+		ctx.moveTo(540,340);
+		ctx.lineTo(540,390);
+		ctx.stroke();
+	
+		ctx.moveTo(540,410);
+		ctx.lineTo(540,460);
+		ctx.stroke();
+
+	<!-- This is circle tyre area-->
+
+		ctx.moveTo(400,280);
+		ctx.lineTo(260,400);
+		ctx.stroke();
+
+		ctx.moveTo(530,400);
+		ctx.lineTo(350,280);
+		ctx.stroke();
+		
+		ctx.moveTo(400,280);
+		ctx.lineTo(350,280);
+		ctx.stroke();
+
+		ctx.moveTo(378,370);
+		ctx.lineTo(378,300);
+		ctx.stroke();
+		
+		ctx.moveTo(480,370);
+		ctx.lineTo(300,370);
+		ctx.stroke();
+		
+		ctx.moveTo(365,310);
+		ctx.lineTo(290,310);
+		ctx.stroke();
+	
+	<!--This is body area-->
+	
+		ctx.moveTo(480,370);
+		ctx.lineTo(480,250);
+		ctx.stroke();
+		
+		ctx.moveTo(460,240);
+		ctx.lineTo(510,260);
+		ctx.stroke();
+
+	<!--head light-->
+		ctx.shadowBlur=20;
+		ctx.shadowColor="yellow";
+		ctx.fillStyle="orange";
+		ctx.fillRect(478,240,20,20);
+
+	<!--Back light-->
+		ctx.shadowBlur=20;
+		ctx.shadowColor="#F5797F";
+		ctx.fillStyle="#BA0A13";
+		ctx.fillRect(270,300,20,20);
+
+	<!--This is handle and headlight with backlight area-->
+
+			
+	</script></center>
+			
+				
+			<button><a href="4class.html#">Go to nect class</a></button>
+
+</body>
+</html>

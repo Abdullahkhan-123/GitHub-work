@@ -1,0 +1,105 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>fifth class</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("#cssbtn").click(function(){
+$("body").css("background","#43454B");
+});
+});
+
+</script>
+</head>
+<style>
+body{
+
+	background:#BC7860;
+}
+h1{
+	text-align:center;
+}
+p{
+	text-align:center;
+}
+h1#heading{
+	color:#811AA1;
+	background:#09C5BF;
+	text-align:center;
+}	
+p#para1{
+	font-size:x-large;
+	color:#DA74FA;
+	text-align:center;
+}
+.city{
+	background:yellow;
+	color:red;
+	padding:10px;
+	margin:10px;
+}
+.city1{
+	background:lightblue;
+	color:blue;
+	padding:10px;
+	margin:10px;
+}
+.city2{
+	background:purple;
+	color:gray;
+	padding:10px;
+	margin:10px;
+}
+button#class{
+	font-size:large;
+	background:#3DA6A3;
+	padding: 10px 14px;
+	margin: 50px 400px;
+}
+a{
+	text-decoration:none;
+}
+#cssbtn{
+	padding:0px; 
+	margin:0px;
+}
+</style>
+<body>
+
+	<button id="cssbtn">Night Mode</button>
+
+
+	<h1 id="heading">Fifth class project</h1>
+	<p id="para1">This is my fifth class project. I had completed 15minute</p>
+	
+	
+	<div style="border:1px solid #19EDE6; padding:20px;">	
+		<div class="city">
+		<h1>Pakistan</h1>
+		<p>Islamabad</p>
+	</div>
+	
+	<div class="city1">
+		<h1>Pakistan</h1>
+		<p>Hyderabad</p>
+	</div>
+
+	
+	<div class="city2">
+		<h1>Pakistan</h1>
+		<p>lahore</p>
+	</div>
+
+		<button onClick="myfunction()">HIDE ELEMENTS</button>
+<script>
+function myfunction(){
+	var x=document.getElementsByClassName("city");
+	for (var i=0; i<x.length;i++)
+	x[i].style.display="none";
+}
+</script>
+	</div>
+		<button id="class"><a href="6class.html">Go to next class</a></button>
+</body>
+</html>
