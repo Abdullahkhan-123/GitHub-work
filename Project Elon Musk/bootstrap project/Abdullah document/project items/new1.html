@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("input").focus(function(){
+$(this).css("background","#B87161");
+});
+$("input").blur(function(){
+$(this).css("background","green");
+});
+$("#email").mousedown(function(){
+alert("You entered p1!");
+  },
+  function(){
+    alert("Please enter the real Email:Abdullahkhan@email.com and Password:12345 if you enter wrong email and pasword so this project will be finished");
+  });
+});
+</script>
+</head>
+<style>
+body{
+	background-image:url('3.jpg')
+}
+form{
+    border:1px solid;
+    
+    width: 242px;
+    height: 270px;
+}
+input[type="text"] {
+    margin: 0px 23px;
+}
+button, input, optgroup, select, textarea {
+    margin: 0px 24px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+#para1{
+	font-size:small;
+    color: #f5d4d4;
+}
+button,a{
+	text-decoration:none;
+    background-color: rgb(128, 182, 115);
+	padding: 6px 30px;
+    color: rgb(153, 48, 0);
+}
+label{
+    color: antiquewhite;
+}
+h1{
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(96, 223, 174);
+}
+footer{
+	background:#26989C;
+	padding:10px;
+    text-align: center;
+    color: darkolivegreen;
+}
+</style>
+<body  img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/UNO_logo.svg/1280px-UNO_logo.svg.png" width="225" height="151">
+    
+    <div class="container-fluid">
+    <div style="background-color: rgb(31, 10, 10); padding: 72px;">
+    
+        <div class="text-center">
+        <h1>Kindly Check My Project</h1>    
+    </div>
+        <center><form class="text-center">
+
+           
+        <p id="para1">LOGIN HERE</p>
+        <label>
+            Email
+        </label>
+        <input type="text" placeholder="Put here your Email" id="email">
+        <br><br>
+
+        <label>
+            Password
+        </label>
+        <input type="password" placeholder="Put here your password">
+        <br><br>
+
+
+         <button><a href="main.html">LOGIN</a></button>
+   
+        </form></center></div><br><br>
+    <FOOter>ABDULLAH UNEEB PROJECT<BR>GIVEN BY SIR JAVAID</FOOter>
+    </div>
+</body>
+</html>

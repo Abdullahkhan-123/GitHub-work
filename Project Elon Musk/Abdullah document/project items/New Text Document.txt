@@ -1,0 +1,8 @@
+<html>
+<head>
+<title>My main</title>
+</head>
+<body>
+	<h1>About my study</h1>
+</body>
+</html>

@@ -1,0 +1,58 @@
+body{
+	background-image:url('picture1.jpg');
+	background-repeat: no-repeat;
+  	background-size: 105% 80%;
+ 
+
+}
+div{
+	position:fixed;
+	background:#5E6262; 
+	width:100%;
+	overflow: hidden;
+}
+div ul{
+	margin:0px; 
+	padding:0px;
+	list-style:none;
+}
+div ul li{
+	font-family:courier;
+	float: left; 
+	margin:0px 10px;
+}
+div ul li a{
+	text-decoration: none; 
+	color:#43A2AA; 
+	font-size:20px; 
+	padding: 10px 10px; 
+	display: block;
+}
+div ul li a:hover{
+	border-radius:50px;
+	background:white;
+}
+span{
+	color:red;
+}
+#img {
+	padding: 80px 0px;
+	margin: 35px 20px;
+	height: 300px;
+	width:630px;
+}
+#btn1{
+	background:#568D94;
+	font-size:x-large;
+	font-family:Brush Script MT;
+	padding:10px;
+}
+p{
+	font-family:Trebuchet MS;
+	font-size:large;
+}
+#cssbtn{
+	padding:0px; 
+	margin:0px;
+}
+
