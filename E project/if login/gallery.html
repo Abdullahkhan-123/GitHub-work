@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASCAL JEWELLERY STORE</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<style>
+    #ahref{
+        word-spacing:30px;
+    }
+    #stesside{
+        color: seashell;
+        
+        text-decoration: none;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    h1{
+        font-family: 'Courier New', Courier, monospace;
+    }
+img{
+        max-width:100%;
+    }
+    img.modal-img{
+        height: 300px;
+    }
+.gallery{
+   
+    padding:80px 0px;
+}
+.gallery img{
+    background-color:darkgrey;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    cursor:pointer;
+}
+#gallery-modal .modal-img{
+    width: 100%;
+}
+
+
+ul li a.active {
+   border-bottom: 3px solid rgb(104, 101, 101);
+}
+.header{
+  position:fixed;
+  bottom:0em;
+  width:100%;
+  height:55px;
+  background-color:rgb(225, 228, 231);
+  box-shadow:0 1px 20px 0px ;
+
+}
+.progress-bar{
+  height:5px;
+  width:0%;
+  background-color:rgb(19, 20, 20);
+  margin-top: -3px;
+}
+.pr:hover ,.ne:hover{
+  background-color: rgb(255, 252, 250);
+}
+#tom:hover{
+  background-color: rgb(255, 252, 250);
+}
+h4:hover {
+
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+.navbar{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  box-shadow:0 1px 20px 0px ;
+}
+
+
+#itemsgallery{
+  color:black;
+}
+#itemsgallery:hover{
+  color:rgb(8, 8, 168);
+}
+
+
+
+#glow {
+  color:black;
+  animation: glow 3s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 30px white, 0 0 30px white, 0 0 30px white, 0 0 30px white, 0 0 30px white, 0 0 30px white, 0 0 30px white;
+  }
+  
+  to {
+    text-shadow: 0 0 30px rgb(83, 83, 83), 0 0 30px rgb(83, 83, 83), 0 0 30px rgb(83, 83, 83), 0 0 30px rgb(83, 83, 83), 0 0 30px rgb(83, 83, 83), 0 0 30px  rgb(83, 83, 83), 0 0 30px rgb(83, 83, 83);
+  }
+}
+</style>
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" id="glow">PASCAL</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="file1.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactus.html">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="active nav-link" href="#">Gallery</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="container-fluid text-center py-3" id="main">
+          <h1>PASCAL IMITATION JEWELLERY</h1>
+
+      </div>
+
+      <div class="container-fluid bg-dark" id="ahref">
+          <ul>
+            <li>
+              <a href="ankelet.html" id="stesside">Ankelet</a>
+              <a href="bracelet.html" id="stesside">Bracelets</a>
+              <a href="eairring.html" id="stesside">Earrings</a>
+              <a href="crown.html" id="stesside">Crowns</a>
+              <a href="bangle.html" id="stesside">Bangles</a>
+              <a href="jhoomar.html" id="stesside">Jhoomar</a>
+              <a href="handmade.html" id="stesside">Handmade</a>
+              <a href="necklace.html" id="stesside">Necklaces</a>
+              <a href="nosering.html" id="stesside">Noserings</a>
+              <a href="rings.html" id="stesside">Rings</a>
+              <a href="sets.html" id="stesside">Sets</a>
+              <a href="catcher.html" id="stesside">Catchers</a>
+            </li>
+          </ul>
+
+      </div>
+
+
+<br><br>
+      
+
+        <h3 class="text-center"><i>Ankelet Gallery <a href="ankelet.html" id="itemsgallery"><br> Visit Ankalet Page</i></a></h3>  
+
+        <section class="gallery min-vh-100">
+        <div class="container-lg">
+            <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+                <div class="col">
+                    <img src="image/ankelet/ankelet1.jpeg" class="gallery-item">
+                </div>
+                <div class="col">
+                    <img src="image/ankelet/ankelet2.jpeg" class="gallery-item">
+                </div>
+                <div class="col">
+                    <img src="image/ankelet/ankelet3.jpeg" class="gallery-item">
+                </div>
+                <div class="col">
+                    <img src="image/ankelet/ankelet4.jpeg" class="gallery-item">
+                </div>
+                <div class="col">
+                    <img src="image/ankelet/ankelet5.jpeg" class="gallery-item">
+                </div>
+                <div class="col">
+                    <img src="image/ankelet/ankelet6.jpeg" class="gallery-item">
+                </div>
+                <div class="col">
+                    <img src="image/ankelet/ankelet7.jpeg" class="gallery-item">
+                </div>
+                <div class="col">
+                    <img src="image/ankelet/ankelet8.jpeg" class="gallery-item">
+                </div>
+                <div class="col">
+                    <img src="image/ankelet/ankelet9.jpeg" class="gallery-item">
+                </div>
+            </div>
+                
+
+                                            <br><br>
+
+
+                      <h3 class="text-center"><i>bracelet Gallery<a href="bracelet.html" id="itemsgallery"><br> Visit bracelet Page</i></a></a></h3>  <br><br>
+
+                <div class="container-lg">
+                    <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+                        <div class="col">
+                            <img src="image/bracelets/bracelet1.jpeg" class="gallery-item">
+                        </div>
+                        <div class="col">
+                            <img src="image/bracelets/bracelet2.jpeg" class="gallery-item">
+                        </div>
+                        <div class="col">
+                            <img src="image/bracelets/bracelet3.jpeg" class="gallery-item">
+                        </div>
+                        <div class="col">
+                            <img src="image/bracelets/bracelet4.jpeg" class="gallery-item">
+                        </div>
+                        <div class="col">
+                            <img src="image/bracelets/bracelet5.jpeg" class="gallery-item">
+                        </div>
+                        <div class="col">
+                            <img src="image/bracelets/bracelet6.jpeg" class="gallery-item">
+                        </div>
+                        <div class="col">
+                            <img src="image/bracelets/bracelet7.jpeg" class="gallery-item">
+                        </div>
+                        <div class="col">
+                            <img src="image/bracelets/bracelet8.jpeg" class="gallery-item">
+                        </div>
+                        <div class="col">
+                            <img src="image/bracelets/bracelet9.jpeg" class="gallery-item">
+                        </div>
+               
+            </div>
+        </div>
+
+        <br><br>
+
+
+        <h3 class="text-center"><i>Eairrings Gallery<a href="eairring.html" id="itemsgallery"><br> Visit Eairring Page</i></a></h3>  <br><br>
+
+  <div class="container-lg">
+      <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+          <div class="col">
+              <img src="image/eairrings/eairring1.jpeg" class="gallery-item">
+          </div>
+          <div class="col">
+              <img src="image/eairrings/eairring2.jpeg" class="gallery-item">
+          </div>
+          <div class="col">
+              <img src="image/eairrings/eairring3.jpeg" class="gallery-item">
+          </div>
+          <div class="col">
+              <img src="image/eairrings/eairring4.jpeg" class="gallery-item">
+          </div>
+          <div class="col">
+              <img src="image/eairrings/eairring5.jpeg" class="gallery-item">
+          </div>
+          <div class="col">
+              <img src="image/eairrings/eairring6.jpeg" class="gallery-item">
+          </div>
+          <div class="col">
+              <img src="image/eairrings/eairring7.jpeg" class="gallery-item">
+          </div>
+          <div class="col">
+              <img src="image/eairrings/eairring8.jpeg" class="gallery-item">
+          </div>
+          <div class="col">
+              <img src="image/eairrings/eairring9.jpeg" class="gallery-item">
+          </div>
+ 
+        </div>
+      </div>
+
+
+      <br><br>
+
+
+      <h3 class="text-center"><i>Crowns Gallery<a href="crown.html" id="itemsgallery"><br> Visit Crown Page</i></a></h3>  <br><br>
+
+<div class="container-lg">
+    <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+        <div class="col">
+            <img src="image/crowns/crown1.jpeg" class="gallery-item">
+        </div>
+        <div class="col">
+            <img src="image/crowns/crown2.jpeg" class="gallery-item">
+        </div>
+        <div class="col">
+            <img src="image/crowns/crown3.jpeg" class="gallery-item">
+        </div>
+        <div class="col">
+            <img src="image/crowns/crown4.jpeg" class="gallery-item">
+        </div>
+        <div class="col">
+            <img src="image/crowns/crown5.jpeg" class="gallery-item">
+        </div>
+        <div class="col">
+            <img src="image/crowns/crown6.jpeg" class="gallery-item">
+        </div>
+        <div class="col">
+            <img src="image/crowns/crown7.jpeg" class="gallery-item">
+        </div>
+        <div class="col">
+            <img src="image/crowns/crown8.jpeg" class="gallery-item">
+        </div>
+        <div class="col">
+            <img src="image/crowns/crown9.jpeg" class="gallery-item">
+        </div>
+
+      </div>
+    </div>
+
+
+    <br><br>
+
+
+    <h3 class="text-center"><i>Bangles Gallery<a href="bangle.html" id="itemsgallery"><br> Visit Bangle Page</i></a></h3>  <br><br>
+
+<div class="container-lg">
+  <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+      <div class="col">
+          <img src="image/bangles/bangle1.jpeg" class="gallery-item">
+      </div>
+      <div class="col">
+          <img src="image/bangles/bangle2.jpeg" class="gallery-item">
+      </div>
+      <div class="col">
+          <img src="image/bangles/bangle3.jpeg" class="gallery-item">
+      </div>
+      <div class="col">
+          <img src="image/bangles/bangle4.jpeg" class="gallery-item">
+      </div>
+      <div class="col">
+          <img src="image/bangles/bangle5.jpeg" class="gallery-item">
+      </div>
+      <div class="col">
+          <img src="image/bangles/bangle6.jpeg" class="gallery-item">
+      </div>
+      <div class="col">
+          <img src="image/bangles/bangle7.jpeg" class="gallery-item">
+      </div>
+      <div class="col">
+          <img src="image/bangles/bangle8.jpeg" class="gallery-item">
+      </div>
+      <div class="col">
+          <img src="image/bangles/bangle9.jpeg" class="gallery-item">
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <br><br>
+
+
+  <h3 class="text-center"><i>Jhoomar Gallery<a href="jhoomar.html" id="itemsgallery"><br> Visit Jhoomar Page</i></a></h3>  <br><br>
+
+<div class="container-lg">
+<div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+    <div class="col">
+        <img src="image/jhoomar/jhoomar1.jpeg" class="gallery-item">
+    </div>
+    <div class="col">
+        <img src="image/jhoomar/jhoomar2.jpeg" class="gallery-item">
+    </div>
+    <div class="col">
+        <img src="image/jhoomar/jhoomar3.jpeg" class="gallery-item">
+    </div>
+    <div class="col">
+        <img src="image/jhoomar/jhoomar4.jpeg" class="gallery-item">
+    </div>
+    <div class="col">
+        <img src="image/jhoomar/jhoomar5.jpeg" class="gallery-item">
+    </div>
+    <div class="col">
+        <img src="image/jhoomar/jhoomar6.jpeg" class="gallery-item">
+    </div>
+    <div class="col">
+        <img src="image/jhoomar/jhoomar7.jpeg" class="gallery-item">
+    </div>
+    <div class="col">
+        <img src="image/jhoomar/jhoomar8.0.jpeg" class="gallery-item">
+    </div>
+    <div class="col">
+        <img src="image/jhoomar/jhoomar9.0.jpeg" class="gallery-item">
+    </div>
+
+  </div>
+</div>
+
+
+
+<br><br>
+
+
+<h3 class="text-center"><i>Handmade Gallery<a href="handmade.html" id="itemsgallery"><br> Visit Handmade Page</i></a></h3>  <br><br>
+
+<div class="container-lg">
+<div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+  <div class="col">
+      <img src="image/handmade/handmade1.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/handmade/handmade2.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/handmade/handmade3.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/handmade/handmade4.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/handmade/handmade5.0.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/handmade/handmade6.0.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/handmade/handmade7.0.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/handmade/handmade8.0.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/handmade/handmade9.jpeg" class="gallery-item">
+  </div>
+
+</div>
+</div>
+
+
+
+<br><br>
+
+
+<h3 class="text-center"><i>Necklaces Gallery<a href="necklace.html" id="itemsgallery"><br> Visit Nacklace Page</i></a></h3>  <br><br>
+
+<div class="container-lg">
+<div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+  <div class="col">
+      <img src="image/necklace/necklace1.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/necklace/necklace2.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/necklace/necklace3.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/necklace/necklace4.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/necklace/necklace5.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/necklace/necklace6.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/necklace/nacelace7.o.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/necklace/necklace8.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/necklace/nacklace9.0.jpeg" class="gallery-item">
+  </div>
+
+</div>
+</div>
+
+
+<br><br>
+
+
+<h3 class="text-center"><i>Noserings Gallery<a href="nosering.html" id="itemsgallery"><br> Visit Nose ring Page</i></a></h3>  <br><br>
+
+<div class="container-lg">
+<div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+  <div class="col">
+      <img src="image/nosering/nosering1.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/nosering/nosering2.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/nosering/nosering3.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/nosering/nosering4.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/nosering/nosering5.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/nosering/nosering6.0.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/nosering/nosering7.0.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/nosering/nosering8.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/nosering/nosering9.jpeg" class="gallery-item">
+  </div>
+
+</div>
+</div>
+
+
+<br><br>
+
+
+<h3 class="text-center"><i>Rings Gallery<a href="rings.html" id="itemsgallery"><br> Visit Ring Page</i></a></h3>  <br><br>
+
+<div class="container-lg">
+<div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+  <div class="col">
+      <img src="image/rings/rings1.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/rings/rings2.0.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/rings/rings3.0.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/rings/rings4.0.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/rings/rings5.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/rings/rings6.0.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/rings/rings7.0.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/rings/rings8.0.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/rings/rings9.jpeg" class="gallery-item">
+  </div>
+
+</div>
+</div>
+
+
+<br><br>
+
+
+<h3 class="text-center"><i>Sets Gallery<a href="sets.html" id="itemsgallery"><br> Visit Sets Page</i></a></h3>  <br><br>
+
+<div class="container-lg">
+<div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+  <div class="col">
+      <img src="image/sets/sets1.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/sets/sets2.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/sets/sets3.0.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/sets/sets4.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/sets/sets5.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/sets/sets6.0.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/sets/sets7.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/sets/sets8.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/sets/sets9.jpeg" class="gallery-item">
+  </div>
+  </div>
+  </div>  
+
+
+    <br><br>
+
+    <h3 class="text-center"><i>Catchers Gallery<a href="catcher.html" id="itemsgallery"><br> Visit Catcher Page</i></a></h3>  <br><br>
+
+<div class="container-lg">
+<div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+  <div class="col">
+      <img src="image/catchers/kecher1.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/catchers/kecher2.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/catchers/kecher3.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/catchers/kecher4.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/catchers/kecher5.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/catchers/kecher6.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/catchers/kecher7.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/catchers/kecher8.jpeg" class="gallery-item">
+  </div>
+  <div class="col">
+      <img src="image/catchers/kecher9.jpeg" class="gallery-item">
+  </div>
+
+</div>
+</div>
+
+    </section>
+
+
+   
+
+  <!-- Modal -->
+  <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img src="image/ankelet/ankelet1.jpeg" class="modal-img" alt="modal-img">
+        </div>
+        
+    </div>
+    </div>
+  </div>
+      
+    <div class="header" data-aos="fadeup">
+      <div class="progress-bar" id="scrollbar"></div>
+    
+      <h4 class="np" style="float: right; margin:10px 5px;">
+        <a href="contactus.html" class="pr text-dark">< Prev</a>
+        
+        <i class="text-dark">Top</i>
+        <a href="#" class="text-dark" id="tom">^</a>
+
+      </h4>
+
+    </div>
+     
+
+      <script>
+    
+        window.onscroll=function(){myfunction()};
+        
+        function myfunction(){
+          var winScroll=document.body.scrollTop || document.documentElement.scrollTop;
+          var height=document.documentElement.scrollHeight-document.documentElement.clientHeight;
+          var scroll=(winScroll/height)*100;
+          document.getElementById("scrollbar").style.width=scroll+"%";
+        }
+      </script>
+   
+   
+
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+  offset:50,
+  duration:3000,
+  });
+</script>
+  
+
+
+
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script>
+        $(document).on('click','ul li',function(){
+            $(this).addClass('active').siblings.removeClass('active')
+          })
+      </script>
+      
+
+      <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        captionText.innerHTML = dots[slideIndex-1].alt;
+      }
+      </script>
+
+
+      
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <script>
+      document.addEventListener("click",function (e){
+          if(e.target.classList.contains("gallery-item")){
+          const src=e.target.getAttribute("src");
+          document.querySelector(".modal-img").src=src;
+          const myModal=new bootstrap.Modal(document.getElementById('gallery-modal'));
+          myModal.show();
+          }
+      })   
+          
+  </script>
+  
+          
+</body>
+</html>
